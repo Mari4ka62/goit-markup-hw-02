@@ -1,7 +1,55 @@
-/* main blue color 2196F3 */
-/* maim white color FFFFFF */
-/* main black color h and nav 212121 */
-/* logo color 000000 2196F3 */
-/* color p and number 757575 */
-/* background color F5F5F5 */
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --main-background-color:#fff
+}
+.page{background-color: var(--main-background-color);
+color:var(--primary-text-color);}
+.primary-logo{color:#000000 ;}
+.second-logo{color: #fff;}
+.first-word-logo{color: var(--accent-color);}
+.list{list-style: none;}
+/* Навігація */
+.site-nav .link{color:var(--title-text-color) ;}
+.site-nav .link:hover, .site-nav .link:focus{color: var(--accent-color);}
+.site-nav .link.current{color: var(--accent-color);}
+/* Аудентифікація */
+.auth-nav .link{color: var(--title-text-color);}
+.auth-nav .link:hover, .auth-nav .link:focus{color:var(--accent-color);}
+
+/* Герой */
+.hero .title{color: #fff;}
+/* Button */
+.hero .button{background-color: var(--accent-color); 
+    color: #fff;
+cursor: pointer;}
+.hero .button:hover,.hero .button:focus{color:#188CE8;}
+/* Footer */
+.site-connection .link{color: #ffffff60;}
+.site-connection .adress.link {
+    color: #fff;
+}
+.site-connection .link:hover,.site-connection .link:focus{color: var(--accent-color);}
+
+/* Секція */
+.section-title{color:var(--title-text-color);}
+
+
+/* Особливості */
+.feature-list .title{color:var(--title-text-color);}
+
+
+/* Наша команда */
+.member-list .title{color: var(--title-text-color);}
+
+
+
+/* Footer */
+/* accent blue color #2196F3 */
+/* maim white color #FFFFFF */
+/* main black color h and nav #212121 */
+/* logo color #000000 #2196F3 */
+/* main text color #757575 */
+/* background color #F5F5F5 */
 /* background color footer and hero 2F303A */
