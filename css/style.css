@@ -33,7 +33,19 @@ letter-spacing: 0.02em;}
 .auth-nav .link:hover, .auth-nav .link:focus{color:var(--accent-color);}
 
 /* Герой */
-.hero .title{color: #fff; letter-spacing: 0.06em;}
+.hero .title{color: #fff; letter-spacing: 0.06em;
+font-weight: 900;
+ font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;}
+ .hero .button{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.06em;
+ }
 /* Button */
 .button{background-color: var(--button-background); 
     color: var(--title-text-color);
