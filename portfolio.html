@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="page">
@@ -18,10 +24,10 @@
         <!-- Навігація -->
         <ul class="site-nav list">
           <li>
-            <a href="./index.html" class="link current">Студія</a>
+            <a href="./index.html" class="link">Студія</a>
           </li>
           <li>
-            <a href="./portfolio.html" class="link">Портфоліо</a>
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
           <li>
             <a href="#" class="link">Контакти</a>
@@ -40,23 +46,24 @@
     </header>
     <main>
       <!-- filter -->
-      <ul>
-        <li><button type="button">Усі</button></li>
-        <li><button type="button">Веб-сайти</button></li>
-        <li><button type="button">Додатки</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
-      </ul>
       <section>
-        <h1>фотогалерея</h1>
-        <ul>
+        <h1>Наші роботи</h1>
+        <ul class="filter list">
+          <li><button type="button" class="button">Усі</button></li>
+          <li><button type="button" class="button">Веб-сайти</button></li>
+          <li><button type="button" class="button">Додатки</button></li>
+          <li><button type="button" class="button">Дизайн</button></li>
+          <li><button type="button" class="button">Маркетинг</button></li>
+        </ul>
+
+        <ul class="work-list list">
           <li>
             <img
               src="./images/portfolioimg1.jpg"
               alt="Сайт технокряк"
               width="370"
             />
-            <h2>Технокряк</h2>
+            <h2 class="title">Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -65,7 +72,7 @@
               alt="Баскетболісти"
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
           <li>
@@ -74,17 +81,17 @@
               alt="Логотип ресторану"
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
+            <h2 class="title">Ресторан Seafood</h2>
             <p>Додаток</p>
           </li>
           <li>
             <img src="./images/portfolioimg4.jpg" alt="Навушники" width="370" />
-            <h2>Проєкт Prime</h2>
+            <h2 class="title">Проєкт Prime</h2>
             <p>Маркетинг</p>
           </li>
           <li>
             <img src="./images/portfolioimg5.jpg" alt="Коробки" width="370" />
-            <h2>Проєкт Boxes</h2>
+            <h2 class="title">Проєкт Boxes</h2>
             <p>Додаток</p>
           </li>
           <li>
@@ -93,7 +100,7 @@
               alt="Монітор із загруженим сайтом"
               width="370"
             />
-            <h2>Inspiration has no Borders</h2>
+            <h2 class="title">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -102,12 +109,12 @@
               alt="Розгорнута книга"
               width="370"
             />
-            <h2>Видання Limited Edition</h2>
+            <h2 class="title">Видання Limited Edition</h2>
             <p>Дизайн</p>
           </li>
           <li>
             <img src="./images/portfolioimg8.jpg" alt="Бірка" width="370" />
-            <h2>Проєкт LAB</h2>
+            <h2 class="title">Проєкт LAB</h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -116,7 +123,7 @@
               alt="Робота за ноутбуком"
               width="370"
             />
-            <h2>Growing Business</h2>
+            <h2 class="title">Growing Business</h2>
             <p>Додаток</p>
           </li>
         </ul>
